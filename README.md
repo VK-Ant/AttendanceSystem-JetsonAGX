@@ -12,7 +12,7 @@ $ cd AttendanceSystem-JetsonAGX
 ```
 Make sure your terminal is located in the  directory AttendanceSystem-JetsonAGX
 
-### **2. Install reuirementfile**
+### **2. Install requirementfile**
 
 ```bash
 
@@ -30,7 +30,7 @@ After run the above cmd: Enter your name in terminal
 
 Make sure your intial images stored in Attendance_data folder
 
-### **4. Attendance System and automatically data entried into Excel sheet - Main script**
+### **4. Attendance System and automatically data stored into Excel sheet - Main script**
 
 ```bash
 $ bash run.sh
