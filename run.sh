@@ -1,8 +1,6 @@
 #! /bin/bash
 
-cd programfile
-
-python3 Attend.py
+python3 main.py
 
 exec/bash
 

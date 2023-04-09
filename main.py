@@ -1,32 +1,22 @@
-'''Attendance system stored to excel file
-1-requirement
-Opencv,numpy,dlib,cmake,datetime
-2-first identify the face detector
-3-store the data for images
-4-then identify the face store the name for database
-5- And visualize the excel sheet'''
-import cv2     # package of open cv
+
+import cv2
 import numpy as np
 import face_recognition
 import os
 from datetime import datetime
 from datetime import date
-
-# from PIL import ImageGrab
-
-path = '/home/augray-ai/Desktop/face/Attendance'  #path
-images = []  #image list
-classNames = []#what are the different type of lmage identify it
-myList = os.listdir(path)#used for our window so used for os lib
-print(myList)
-for cl in myList:  #These are the split the image name for jack.jpg to jack "for"loop process
-    curImg = cv2.imread(f'{path}/{cl}')
-    images.append(curImg)
-    classNames.append(os.path.splitext(cl)[0])
-print(classNames)
+import pytz
+import csv
 
 
-def findEncodings(images):   #Encoding is used for the compare the person to stored listed documents
+def identifyEncodings(images):
+    '''
+    Encoding is Recognition and comparing particular face in database or stored folder
+
+    args:
+    images:str
+    '''
+    
     encodeList = []
     for img in images:
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -34,9 +24,18 @@ def findEncodings(images):   #Encoding is used for the compare the person to sto
         encodeList.append(encode)
     return encodeList
 
-#This process is the database
 def markAttendance(name):
-    with open('/home/augray-ai/Desktop/face/programfile/Attendance.csv', 'r+') as f:
+    '''
+    This function do two process
+    1. Taken image name: vk.png -> vk
+    2. Attendance entry in database or csv file
+    
+    args:
+    name: str
+    '''
+
+    date = datetime.now(pytz.timezone('Asia/Kolkata')).strftime("%y_%m_%d||%H:%M")
+    with open(f'Attendance_Entry/Attendance_{date}.csv', 'r+') as f:
         myDataList = f.readlines()
         nameList = []
         for line in myDataList:
@@ -51,24 +50,43 @@ def markAttendance(name):
             print(date_i)
             f.writelines(f'\n{name},{dtString},{date_i}')
 
+#  First create csv file in time and data
+date = datetime.now(pytz.timezone('Asia/Kolkata')).strftime("%y_%m_%d||%H:%M")
+print(date)
+header = ("S.NO","Time","Date")
 
-#### FOR CAPTURING SCREEN RATHER THAN WEBCAM
-# def captureScreen(bbox=(300,300,690+300,530+300)):
-#     capScr = np.array(ImageGrab.grab(bbox))
-#     capScr = cv2.cvtColor(capScr, cv2.COLOR_RGB2BGR)
-#     return capScr
+with open(f"Attendance_Entry/Attendance_{date}.csv","w") as file:
+	writer = csv.writer(file)
+	writer.writerow(header)
 
-encodeListKnown = findEncodings(images)
+#Preprocessing the data 
+
+path = 'Attendance_Data'
+images = []
+classNames = []
+myList = os.listdir(path)
+print(myList)
+# split the data vk.png to vk
+for cl in myList:
+    curImg = cv2.imread(f'{path}/{cl}')
+    images.append(curImg)
+    classNames.append(os.path.splitext(cl)[0])
+print(classNames)
+
+# Encoding of input image data
+encodeListKnown = identifyEncodings(images)
 print('Encoding Complete')
-#webcam process 
+
+
+#Camera capture 
 cap = cv2.VideoCapture('/dev/video0')
 
 while True:
     success, img = cap.read()
-    # img = captureScreen()
     imgS = cv2.resize(img, (0, 0), None, 0.25, 0.25)
     imgS = cv2.cvtColor(imgS, cv2.COLOR_BGR2RGB)
 
+    #Face recognition using dlib
     facesCurFrame = face_recognition.face_locations(imgS)
     encodesCurFrame = face_recognition.face_encodings(imgS, facesCurFrame)
 
@@ -88,7 +106,7 @@ while True:
             cv2.putText(img, name, (x1 + 6, y2 - 6), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 2)
             markAttendance(name)
 
-    cv2.imshow('Webcam', img)
+    cv2.imshow('Attendance System', img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
   
