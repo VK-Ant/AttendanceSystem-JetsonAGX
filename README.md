@@ -26,6 +26,8 @@ Check that your AGX device has Opencv,numpy,dlib,cmake,datetime installed.
 ```bash
 $ python3 initial_data_capture.py
 ```
+After run the above cmd: Enter your name in terminal
+
 Make sure your intial images stored in Attendance_data folder
 
 ### **4. Attendance System and automatically data entried into Excel sheet - Main script**
@@ -55,6 +57,8 @@ $ python3 main.py
 ```bash
 $ python3 delete_image.py
 ```
+After run the above cmd: Enter the name in terminal
+
 Make sure image is delete or not in Attendance_data folder
 
 ## **Project explaination**
