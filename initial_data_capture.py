@@ -8,7 +8,7 @@ def Intial_data_capture(camera_id=None):
     args:
     camera_id : int
     """
-    path = "Attendance_Data/"
+    path = "Attendance_data/"
     if camera_id == None:
      	camera_id = '/dev/video0'
     

@@ -10,7 +10,7 @@ def Remove_file(file_path:str=None):
     """
 
     if file_path==None:
-        file_path = "Attendance_Data"
+        file_path = "Attendance_data"
     else:
     	print("Enter the correct parent path")
     	

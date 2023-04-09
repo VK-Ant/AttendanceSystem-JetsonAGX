@@ -61,7 +61,7 @@ with open(f"Attendance_Entry/Attendance_{date}.csv","w") as file:
 
 #Preprocessing the data 
 
-path = 'Attendance_Data'
+path = 'Attendance_data'
 images = []
 classNames = []
 myList = os.listdir(path)
