@@ -79,7 +79,7 @@ Make sure image is delete or not in Attendance_data folder
 
 Thankyou and credits,
 
-1. My friends Venkatesan and bala
-2. Bss. Narayan (Providing the development kit)
+1. Venkatesan (Providing Data and taking demo output video)
+2. BSS. Narayan (Providing the development kit)
 
 ## **🤗Happy learning🤗**
