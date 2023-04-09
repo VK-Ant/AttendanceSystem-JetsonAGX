@@ -77,6 +77,9 @@ Make sure image is delete or not in Attendance_data folder
 6. If you want remove the person data in database or data throught folder
 
 
-Data supporting credit: My friend venkatesan
+Thankyou and credits,
+
+1. My friends Venkatesan and bala
+2. Bss. Narayan (Providing the development kit)
 
 ## **🤗Happy learning🤗**
