@@ -40,7 +40,8 @@ or
 $ python3 main.py
 ```
 
-![bash](https://user-images.githubusercontent.com/75832198/230755014-920d5b8f-e3c2-4b2c-8179-a18e21314df4.png)
+![b](https://user-images.githubusercontent.com/75832198/230757347-01e0a9a9-5799-4fd0-80e4-69de74837703.png)
+
 
 ## **Finally,Result shows**
 
