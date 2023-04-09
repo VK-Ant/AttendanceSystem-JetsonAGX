@@ -44,7 +44,7 @@ $ python3 main.py
 
 ### **Output: i. Face detection using dlib**
 
-![vk](https://user-images.githubusercontent.com/75832198/230755018-b4496022-da25-429a-b3bc-36c7d35b2b89.png)
+![vk](https://user-images.githubusercontent.com/75832198/230756159-20a50b3e-a8ee-4c14-9a51-5ac2c8a295ac.png)
 
 ### ***Output: ii. Automatically Attendance stored in Excel sheet***
 
