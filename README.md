@@ -82,10 +82,6 @@ Make sure image deleted or not in Attendance_data folder.
 
 5. If you want to delete the image throughout the folder use 5th step mentioned above.
 
-5. And finally automatically attendance stored in excel sheet(Name, Data, Time).
-
-6. If you want remove the person data in database or data throught folder.
-
 
 ### **THANK YOU & CREDIT**
 
