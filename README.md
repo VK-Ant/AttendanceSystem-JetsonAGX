@@ -27,7 +27,7 @@ Make sure the path is correct.
 $ pip3 install -r requirement.txt
 
 ```
-Check that your AGX device has Opencv,numpy,dlib,cmake,datetime installed (Package).
+Check that Opencv,numpy,dlib,cmake, and datetime are installed on your AGX device (Packages).
 
 ### **3. Initially person image taken and stored in "Attendance_data" folder**
 
