@@ -76,9 +76,9 @@ Make sure image deleted or not in Attendance_data folder.
 
 2. Capture your input image of store it in "Attendance_data" folder. 
 
-3. Next identify the faces in the given input data using DLIB library.
+3. Next Recognized faces in the given input data using DLIB library.
 
-4. Then identify the face and store entry in excel sheet.
+4. Then Attendance entered in excel sheet.
 
 5. If you want to delete the image throughout the folder use 5th step mentioned above.
 
