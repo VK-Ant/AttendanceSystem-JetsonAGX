@@ -20,7 +20,7 @@ $ cd AttendanceSystem-JetsonAGX
 ```
 Make sure the path is correct.
 
-### **2. Install requirement file**
+### **2. Install prerequisite library using requirement file**
 
 ```bash
 
