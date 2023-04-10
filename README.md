@@ -1,4 +1,4 @@
-# <h><center><b>FACE BASED ATTENDANCE SYSTEM USING NVIDIA JETSON AGX XAVIER</b></center></h>
+# **FACE BASED ATTENDANCE SYSTEM USING NVIDIA JETSON AGX XAVIER**
 
 ![20230409_100542_1](https://user-images.githubusercontent.com/75832198/230754595-8df2c106-41a3-4782-acce-9d3b63601444.jpg)
 
@@ -12,7 +12,7 @@ A facial recognition attendance system is a non-contact approach to managing emp
 ![6390a10c3644738a41e9b528_Face-Recognition](https://user-images.githubusercontent.com/75832198/230925305-f66ef39a-9be0-47e5-a14e-fb029578c6a6.jpeg)
 
 
-## **STEPS TO FOLLOW IN THE PROJECT**
+## **STEPS TO FOLLOW IN THIS PROJECT**
 
 ### **1. Git clone and change directory**
 
