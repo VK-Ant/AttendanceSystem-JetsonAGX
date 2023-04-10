@@ -3,16 +3,14 @@
 ![20230409_100542_1](https://user-images.githubusercontent.com/75832198/230754595-8df2c106-41a3-4782-acce-9d3b63601444.jpg)
 
 
-## **Objective:**
+## **OBJECTIVE:**
 
 A face based attendance system incorporates facial recognition technology to recognize and verify an employee’s or student facial features and to record attendance automatically. 
 
 A facial recognition attendance system is a non-contact approach to managing employees in a business significantly when they are out on the field.
 
-![6390a10c3644738a41e9b528_Face-Recognition](https://user-images.githubusercontent.com/75832198/230925305-f66ef39a-9be0-47e5-a14e-fb029578c6a6.jpeg)
 
-
-## **STEPS TO FOLLOW IN THIS PROJECT**
+## **STEPS TO FOLLOW IN THIS PROJECT:**
 
 ### **1. Git clone and change directory**
 
@@ -72,7 +70,7 @@ After run the above cmd: Enter the name in terminal
 
 Make sure image deleted or not in Attendance_data folder.
 
-## **Project Description:**
+## **PROJECT DESCRIPTION:**
 
 1. Install requirement file.
 
@@ -89,7 +87,7 @@ Make sure image deleted or not in Attendance_data folder.
 6. If you want remove the person data in database or data throught folder.
 
 
-Thank you and credits,
+### **THANK YOU & CREDIT**
 
 1. Venkatesan (Providing Data and taking demo output video) 
 2. BSS.Narayan (Providing the development kit)
