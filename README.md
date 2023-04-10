@@ -5,9 +5,9 @@
 
 ## **OBJECTIVE:**
 
-A face based attendance system incorporates facial recognition technology to recognize and verify an employee’s or student facial features and to record attendance automatically. 
+1. A face based attendance system incorporates facial recognition technology to recognize and verify an employee’s or student facial features and to record attendance automatically. 
 
-A facial recognition attendance system is a non-contact approach to managing employees in a business significantly when they are out on the field.
+2. A facial recognition attendance system is a non-contact approach to managing employees in a business significantly, when they are out on the field.
 
 
 ## **STEPS TO FOLLOW IN THIS PROJECT:**
