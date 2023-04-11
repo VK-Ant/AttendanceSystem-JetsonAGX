@@ -29,7 +29,7 @@ $ pip3 install -r requirement.txt
 ```
 Check that Opencv,numpy,dlib,cmake, and datetime are installed on your AGX device (Packages).
 
-### **3. Initially person image taken and stored in "Attendance_data" folder**
+### **3. Take a picture of your input and save it to the "Attendance_data" folder.**
 
 ```bash
 $ python3 initial_data_capture.py
