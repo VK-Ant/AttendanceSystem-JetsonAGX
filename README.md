@@ -53,7 +53,7 @@ $ python3 main.py
 
 ## **Result's**
 
-### **Output1: Face detection using dlib**
+### **Output1: Face recognition**
 
 ![vk](https://user-images.githubusercontent.com/75832198/230756159-20a50b3e-a8ee-4c14-9a51-5ac2c8a295ac.png)
 
