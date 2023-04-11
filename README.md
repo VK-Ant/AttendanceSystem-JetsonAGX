@@ -85,7 +85,7 @@ Make sure image deleted or not in Attendance_data folder.
 
 ### **THANK YOU & CREDIT**
 
-1. Venkatesan (Providing Data and taking demo output video) 
+1. HarishKumar, Venkatesan (Providing Data and taking demo output video) 
 2. BSS.Narayan (Providing the development kit)
 
 ## **🤗Happy learning🤗**
