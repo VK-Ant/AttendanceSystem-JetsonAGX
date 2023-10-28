@@ -82,6 +82,10 @@ Make sure image deleted or not in Attendance_data folder.
 
 5. If you want to delete the image throughout the folder use 5th step mentioned above.
 
+## **Finally Accomplished! APR 2023**
+
+![1681444951827](https://github.com/VK-Ant/AttendanceSystem-JetsonAGX/assets/75832198/7fd2fe7b-a806-4c7e-a843-760ee05c5bb2)
+
 
 ### **THANK YOU & CREDIT**
 
